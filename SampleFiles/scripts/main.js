@@ -47,6 +47,6 @@ const appendElements = () => {
   document.getElementById('tweet1').appendChild(NewLink);
 
   const img = document.createElement ('img');
-  img.src =
+  img.src = "https://cs.stanford.edu/sites/default/files/carousel_images/chalkboard_web.jpg";
   document.getElementById('tweet1').appendChild(img);
 }
